@@ -1,0 +1,17 @@
+.service-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-section h1{
+  margin: 10px;
+  color:var(--page-color);
+}
+
+.service-section p{
+  width: 50%;
+  color: var(--page-color);
+  opacity: 80%;
+}
