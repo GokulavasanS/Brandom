@@ -1,17 +1,129 @@
-.service-section{
+.service-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  transition: opacity 0.5s ease;
 }
 
-.service-section h1{
+.service-section h1 {
   margin: 10px;
-  color:var(--page-color);
+  color: var(--page-color);
 }
 
-.service-section p{
+.service-section p {
   width: 50%;
   color: var(--page-color);
   opacity: 80%;
+  text-align: center;
+}
+
+.cards-carousel {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.cards-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.service-card {
+  flex: 0 0 calc(100% / 3 - 68px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin:20px 12px;
+}
+
+.service-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  display: none;
+}
+
+.cards-carousel:hover .prev-button,
+.cards-carousel:hover .next-button {
+  display: block;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}
+
+.service-details {
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.service-details h2 {
+  margin: 20px 0;
+  color: var(--page-color);
+}
+
+.service-details p {
+  color: var(--page-color);
+  margin: 10px 0;
+}
+
+.back-button {
+  background-color: #047469;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #035d4f;
+}
+
+@media (max-width: 768px) {
+  .service-section p {
+    width: 80%;
+  }
+
+  .cards-carousel {
+    width: 100%;
+  }
+
+  .service-card {
+    flex: 0 0 88%;
+    margin: 10px 10px;
+  }
 }
