@@ -5,9 +5,10 @@ import './App.css';
 import Navbar from './Components/Header/Navbar';
 import Home from './Pages/Home/Home';
 import Service from './Pages/Services/Service';
-// import About from './Pages/About';
+import About from './Pages/About/About';
 // import Portfolio from './Pages/Portfolio';
 // import Contacts from './Pages/Contacts';
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
       <Navbar />
       <div className="main">
         <Home />
-        {/* <About /> */}
+        <About />
         <Service />
         {/* <Portfolio />
         <Contacts /> */}
       </div>
+      <Footer />
     </Router>
   );
 }
