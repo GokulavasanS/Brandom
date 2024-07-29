@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from './brandom-logo.svg';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -14,7 +13,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbar">
-        <img src={Logo} alt="Logo" />
+        <img src="./Blogo.svg" alt="Logo" />
         <div className="navmenu">
           <ul>
             <li className={active === '/' ? 'active' : ''}>
