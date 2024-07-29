@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from './Blogo.svg';
+import Logo from './brandom-logo.svg';
 import './Navbar.css';
 
 const Navbar = () => {

@@ -4,7 +4,7 @@
     padding: 40px;
     text-align: center;
     background-color: #f0f8ff; 
-    font-family: 'Arial, sans-serif';
+    font-family: 'Poppins, sans-serif';
     color: #047469;
     opacity: 0;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
@@ -17,7 +17,9 @@
   }
   
   .about_section h1 {
+    font-family: poppins, sans-serif;
     font-size: 2.5rem;
+    font-weight: 600;
     margin-bottom: 20px;
   }
 
@@ -29,6 +31,7 @@
   }
   
   .about_section p {
+    font-family: poppins, sans-serif;
     font-size: 1.2rem;
     margin-bottom: 40px;
   }
@@ -38,6 +41,7 @@
   }
   
   .mission p{
+    font-family: poppins, sans-serif;
     margin-left: 50px;
   }
 
@@ -80,7 +84,9 @@
   }
   
   .value_item:hover {
-    animation: wiggle 0.25s infinite;
+    /* animation: wiggle 0.25s infinite; */
+    transform: scale(1.25);
+    transition: 0.3s ease;
   }
   
   @keyframes wiggle {
