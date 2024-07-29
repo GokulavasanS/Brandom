@@ -1,0 +1,66 @@
+.chatbot-container {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  .bot-button, .back-button {
+    background-color: var(--page-color);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 1rem;
+  }
+  
+  .chatbot {
+    background-color: var(--color-white);
+    border: 1px solid var(--page-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .chatbot-messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .message {
+    background-color: var(--page-color);
+    color: var(--color-white);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .options button {
+    background-color: var(--page-color);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 0.9rem;
+  }
+  
+  .options button:hover {
+    background-color: var(--hover-effect);
+    color: var(--color-white);
+  }
+  
