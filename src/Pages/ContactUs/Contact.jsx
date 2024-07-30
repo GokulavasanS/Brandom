@@ -59,18 +59,20 @@ const Contact = () => {
       {!(showForm || showChatbot) && (
         <div className="cards">
           <div className="card">
-            <img src="phone-icon.png" alt="Phone" />
+            <img src="src/Pages/ContactUs/phone-icon.svg" alt="Phone" />
             <h3>Phone</h3>
-            <p>Pathutu Call pannunga makkaley...!</p>
+            <p>Your contact number</p>
+            <div className="no-details"></div>
+            <button className="btn">request a call</button>
           </div>
           <div className="card" onClick={() => setShowForm(true)}>
-            <img src="email-icon.png" alt="E-mail" />
+            <img src="src/Pages/ContactUs/mail.svg" alt="E-mail" />
             <h3>E-mail</h3>
             <p>Just send your query by using our mail and we will give you the help you need</p>
             <button className="btn">Send Email</button>
           </div>
           <div className="card">
-            <img src="chatbot-icon.png" alt="ChatBot" />
+            <img src="src/Pages/ContactUs/chatbot.svg" alt="ChatBot" />
             <h3>ChatBot</h3>
             <p>Chat with our chatbot for instant answers regarding any queries you have</p>
             <button className="btn" onClick={() => setShowChatbot(true)}>Chat Here</button>
