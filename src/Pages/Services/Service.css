@@ -19,6 +19,7 @@
   text-align: center;
 }
 
+
 .cards-carousel {
   position: relative;
   overflow: hidden;
@@ -58,7 +59,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0,0,0,0.5);
+  background-color:var(--page-color);
   color: #fff;
   border: none;
   padding: 10px;

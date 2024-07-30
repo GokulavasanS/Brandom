@@ -7,7 +7,7 @@ import Home from './Pages/Home/Home';
 import Service from './Pages/Services/Service';
 import About from './Pages/About/About';
 // import Portfolio from './Pages/Portfolio';
-// import Contacts from './Pages/Contacts';
+import Contacts from './Pages/ContactUs/Contact';
 import Footer from './Components/Footer/Footer'
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Home />
         <About />
         <Service />
-        {/* <Portfolio />
-        <Contacts /> */}
+        {/* <Portfolio /> */}
+        <Contacts /> 
       </div>
       <Footer />
     </Router>
