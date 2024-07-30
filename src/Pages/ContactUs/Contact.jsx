@@ -81,7 +81,6 @@ const Contact = () => {
       )}
       {showForm && (
         <div className="form-container">
-          <button className="back-btn" onClick={() => setShowForm(false)}>Back</button>
           <div className="container">
             <form onSubmit={handleSubmit}>
               <h3>Name</h3>
@@ -109,6 +108,7 @@ const Contact = () => {
               ></textarea>
               {errors.message && <p className="error-message">{errors.message}</p>}
               <div className="button">
+                <button className="submit" onClick={() => setShowForm(false)}>Back</button>
                 <button type="submit" className="submit">Submit</button>
               </div>
               {successMessage && <p className="success-message">{successMessage}</p>}
