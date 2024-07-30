@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
+import webdesign from './web-design-svgrepo-com.svg'
 import './Service.css';
 
 const servicesData = [
-  { title: 'Web Design', logo: 'web_design_logo.svg', details: 'We create responsive and stunning web designs.' },
+  { title: 'Web Design', logo: {webdesign}, details: 'We create responsive and stunning web designs.' },
   { title: 'Logo Design', logo: 'logo_design_logo.svg', details: 'Captivating logos to define your brand identity.' },
   { title: '3D Rendering', logo: '3d_rendering_logo.svg', details: 'High-quality 3D renderings for various needs.' },
   { title: 'Video Editing', logo: 'video_editing_logo.svg', details: 'Professional video editing services.' },
