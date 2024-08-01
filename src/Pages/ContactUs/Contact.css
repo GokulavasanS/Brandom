@@ -146,6 +146,7 @@ input:focus, textarea:focus {
 textarea {
   height: 100px;
   resize: none;
+  background-color: #fff;
 }
 
 .button {
