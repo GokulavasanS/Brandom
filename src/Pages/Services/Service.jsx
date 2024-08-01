@@ -1,15 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
-import webdesign from './web-design-svgrepo-com.svg'
 import './Service.css';
-import Web_design from './webdesign.png'
+import Web_design from './Vector-1.svg'
+import LogoDesign from './Vector-2.svg'
+import Design3d from './Vector.svg'
+import DM from './Vector-3.svg'
+import VideoEdit from './Vector-4.svg'
+import SEO from './Vector-5.svg'
 
 const servicesData = [
   { title: 'Web Design', logo: Web_design, details: 'We create responsive and stunning web designs.' },
-  { title: 'Logo Design', logo: 'logo_design_logo.svg', details: 'Captivating logos to define your brand identity.' },
-  { title: '3D Rendering', logo: '3d_rendering_logo.svg', details: 'High-quality 3D renderings for various needs.' },
-  { title: 'Video Editing', logo: 'video_editing_logo.svg', details: 'Professional video editing services.' },
-  { title: 'SEO Optimization', logo: 'seo_optimization_logo.svg', details: 'Boost your online presence with our SEO services.' },
-  { title: 'Content Creation', logo: 'content_creation_logo.svg', details: 'Engaging content to attract and retain customers.' }
+  { title: 'Logo Design', logo: LogoDesign, details: 'Captivating logos to define your brand identity.' },
+  { title: '3D Design', logo: Design3d, details: 'High-quality 3D renderings for various needs.' },
+  { title: 'Video Editing', logo:VideoEdit , details: 'Professional video editing services.' },
+  { title: 'SEO Optimization', logo: SEO, details: 'Boost your online presence with our SEO services.' },
+  { title: 'Digital Marketing', logo: DM, details: 'Engaging content to attract and retain customers.' }
 ];
 
 const Service = () => {
