@@ -6,7 +6,7 @@ import Navbar from './Components/Header/Navbar';
 import Home from './Pages/Home/Home';
 import Service from './Pages/Services/Service';
 import About from './Pages/About/About';
-import Portfolio from './Pages/Portfolio/Portfolio'
+// import Portfolio from './Pages/Portfolio/Portfolio'
 import Contacts from './Pages/ContactUs/Contact';
 import Footer from './Components/Footer/Footer'
 import Preloader from './Preloader';
@@ -25,13 +25,13 @@ const [loading, setLoading] = useState(true);
     <div className="App">
       {loading ? <Preloader setLoading={setLoading} /> : (
     <Router>
-      <Preloader />
+      {/* <Preloader /> */}
       <Navbar />
       <div className="main">
         <Home />
         <Service />
         <About />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Contacts /> 
       </div>
       <Footer />

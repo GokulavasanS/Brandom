@@ -1,7 +1,7 @@
 .home-details {
     position: relative;
-    width: 100%;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,15 @@
   .home-details img{
     display: flex;
     margin: 70px;
-    height: 390px;
+    height: 450px;
+    width: auto;
+  }
+
+  .aligncenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
   }
 
   .content {
@@ -20,6 +28,7 @@
     flex-direction: column;
     position: relative;
     margin: 50px;
+    width: 60%;
     z-index: 2;
     padding: 20px;
     border-radius: 10px;
@@ -28,19 +37,40 @@
   .content h1 {
     font-family: var(--font-family);
     color: #047469 ;
-    font-weight: 600;
+    font-weight: 650;
     font-size: 2.5rem;
     margin: 0;
-    line-height: 1.2;
+    line-height: 1.5;
+    text-align: left;
   }
   
   .content h3 {
     font-family: var(--font-family);
     color: #047469 ;
     opacity: 70%;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  .butn{
+    display: inline-block;
+    text-align: center;
+    background-color: var(--page-color);
+    color: var(--orginal-white);
+    font-family: POPPINS,sans-serif;
     font-size: 1.2rem;
-    padding-top: 10px;
+    font-weight: 500;
+    width: 35%;
+    padding: 15px 0;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .butn:hover{
+    background-color: var(--hover-effect);
   }
   
   @media (max-width: 768px) {
