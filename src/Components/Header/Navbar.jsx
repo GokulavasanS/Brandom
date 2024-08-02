@@ -17,19 +17,19 @@ const Navbar = () => {
         <div className="navmenu">
           <ul>
             <li className={active === '/' ? 'active' : ''}>
-              <Link to="/">Home</Link>
+              <Link to="/">HOME</Link>
             </li>
             <li className={active === '/about' ? 'active' : ''}>
-              <Link to="/about">About</Link>
+              <Link to="/about">ABOUT</Link>
             </li>
             <li className={active === '/portfolio' ? 'active' : ''}>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/portfolio">PORTFOLIO</Link>
             </li>
             <li className={active === '/services' ? 'active' : ''}>
-              <Link to="/services">Services</Link>
+              <Link to="/services">SERVICES</Link>
             </li>
             <li className={active === '/contact' ? 'active' : ''}>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>

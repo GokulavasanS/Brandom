@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 95dvw;
   height: 55px;
   top: 0;
   left: 0;
-  background-color: var(--page-color);
+  background-color: var(--dark-green);
   z-index: 1000;
   padding: 0 20px;
   position: fixed;
@@ -23,6 +23,7 @@
   list-style-type: none;
   margin-right: 30px;
   padding: 0;
+  gap: 50px;
 }
 
 .navmenu li {
@@ -33,11 +34,17 @@
 .navmenu li a {
   color: var(--color-white);
   text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
   padding: 8px 0;
   display: block;
 }
 
-.navmenu li.active a::after,
+.navmenu li a:hover{
+  color: var(--off-white);
+}
+
+/* .navmenu li.active a::after,
 .navmenu li a:hover::after {
   content: '';
   position: absolute;
@@ -47,7 +54,7 @@
   height: 2px;
   background-color: var(--color-white);
   animation: ltr-animation 0.3s ease-in-out forwards;
-}
+} */
 
 @keyframes ltr-animation {
   from {
@@ -109,7 +116,6 @@
     justify-content: center;
     color: var(--color-white);
     text-decoration: none;
-    flex-grow: 1;
     transition: background-color 0.3s ease-in-out;
   }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Service.css';
-import Web_design from './Vector-1.svg'
+import './Service.css'; 
+import Web_design from './web-design.svg'
 import LogoDesign from './Vector-2.svg'
 import Design3d from './Vector.svg'
 import DM from './Vector-3.svg'

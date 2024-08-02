@@ -4,9 +4,14 @@
   --color-white: #F1F3F1;
   --color-black: #000000;
   --page-color: #047469;
+  --page-color: #047469;
   --font-family: 'Poppins', sans-serif;
   --hover-effect:#90D39E;
+  --hover-effect-2:rgba(144, 211, 158, 0.3);
   --orginal-white:#f2f2f2;
+  --off-white:rgba(242, 242, 242, 0.5);
+  --black:#000;
+  --dark-green:#024A43;
 }
 
 body {
