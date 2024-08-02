@@ -246,13 +246,18 @@ textarea {
 }
 
 @media (max-width: 768px) {
+
+  .contact-page{
+    height: 100%;
+  }
+
   .cards {
     flex-direction: column;
     align-items: center;
   }
 
   .card {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 70%;
+    /* margin-bottom: 20px; */
   }
 }

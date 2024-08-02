@@ -29,8 +29,8 @@ const [loading, setLoading] = useState(true);
       <Navbar />
       <div className="main">
         <Home />
-        <Service />
-        <About />
+        {/* <Service /> */}
+        {/* <About /> */}
         {/* <Portfolio /> */}
         <Contacts /> 
       </div>
