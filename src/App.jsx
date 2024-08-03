@@ -29,7 +29,7 @@ const [loading, setLoading] = useState(true);
       <Navbar />
       <div className="main">
         <Home />
-        {/* <Service /> */}
+        <Service />
         {/* <About /> */}
         {/* <Portfolio /> */}
         <Contacts /> 

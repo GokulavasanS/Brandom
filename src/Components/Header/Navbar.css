@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95dvw;
+  width: 100dvw;
   height: 55px;
   top: 0;
   left: 0;
@@ -94,7 +94,8 @@
   }
 
   .navbar {
-    padding: 0 10px;
+    padding: 0;
+    width: 100%;
   }
 
   .tabbar {
@@ -128,7 +129,7 @@
   }
 
   .tab span {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
   }
 
   .tab:hover {

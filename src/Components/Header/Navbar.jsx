@@ -43,6 +43,10 @@ const Navbar = () => {
           <i className="fas fa-user"></i>
           <span>About</span>
         </Link>
+        <Link to="/services" className={active === '/services' ? 'tab active' : 'tab'}>
+          <i className="fas fa-user"></i>
+          <span>services</span>
+        </Link>
         <Link to="/portfolio" className={active === '/portfolio' ? 'tab active' : 'tab'}>
           <i className="fas fa-briefcase"></i>
           <span>Portfolio</span>
