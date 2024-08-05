@@ -6,7 +6,8 @@
   height: 55px;
   top: 0;
   left: 0;
-  background-color: var(--dark-green);
+  background-color: var(--page-color);
+  border-bottom: 2px solid var(--color-white);
   z-index: 1000;
   padding: 0 20px;
   position: fixed;

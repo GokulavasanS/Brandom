@@ -1,5 +1,5 @@
 import React from 'react'
-import Design from './OBJECTS.svg'
+// import Design from './OBJECTS.svg'
 import './Home.css'
 import Spline from '@splinetool/react-spline';
 
